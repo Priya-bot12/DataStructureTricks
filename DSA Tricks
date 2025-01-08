@@ -1,0 +1,13 @@
+1. XOR (exclusive OR) is a bitwise operation that is commonly used in many problems, particularly those that deal with finding pairs or duplicates. 
+Truth Table for XOR:
+A B A ^ B (Result)
+0	0	  0
+0	1  	1
+1	0	  1
+1	1 	0
+Common Problems
+-> Finding the Missing Number in an Array (Where all other numbers appear twice)
+-> Finding the Single Non-Duplicated Element (in an array where every element appears twice except one)
+-> Finding Two Non-Duplicated Elements (in an array where every element appears twice except two)
+
+2. When you perform the bitwise AND (&) between num and -num, the result is a number that has only the rightmost set bit of num set to 1, and all other bits set to 0.
